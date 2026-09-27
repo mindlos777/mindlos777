@@ -5,7 +5,7 @@
 <br/>
 <img src="./assets/profile-circle.svg" width="170" alt="Mandla Mathobela" />
 <br/>
-##BSc Information Technology
+<h3>BSc Information Technology</h3>
 
 <sub>Learning the foundations. Building the systems. Documenting the process.</sub>
 
