@@ -1,0 +1,105 @@
+<svg width="1200" height="310" viewBox="0 0 1200 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B949E" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#8B949E" stop-opacity=".65"/>
+      <stop offset=".82" stop-color="#8B949E" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#8B949E" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="nameReveal">
+      <rect x="116" y="100" width="0" height="82">
+        <animate attributeName="width"
+          values="0;790;790"
+          keyTimes="0;.58;1"
+          dur="2.4s"
+          begin=".35s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Quiet editorial frame -->
+  <rect x="1" y="1" width="1198" height="308" rx="14" stroke="#30363D"/>
+  <path d="M42 52H1158" stroke="url(#rule)"/>
+  <path d="M42 258H1158" stroke="url(#rule)"/>
+
+  <!-- Index / coordinate marks -->
+  <g fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+    <text x="42" y="38">PROFILE / 01</text>
+    <text x="1066" y="38">2026 — ZA</text>
+    <text x="42" y="282">BUILDING WITH DATA</text>
+    <text x="1034" y="282">ML / AI / DS</text>
+  </g>
+
+  <!-- Signature slash -->
+  <g transform="translate(72 106)">
+    <path d="M0 70L34 0" stroke="#F0F6FC" stroke-width="5"/>
+    <path d="M16 70L50 0" stroke="#8B949E" stroke-width="2"/>
+    <circle cx="3" cy="73" r="3" fill="#F0F6FC">
+      <animate attributeName="opacity" values=".25;1;.25" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Main name: deliberately typographic, not sci-fi -->
+  <g clip-path="url(#nameReveal)">
+    <text x="116" y="154"
+      fill="#F0F6FC"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="58"
+      font-weight="700"
+      letter-spacing="-1.8">MANDLA MATHOBELA</text>
+  </g>
+
+  <!-- Moving registration cursor -->
+  <g>
+    <rect x="116" y="174" width="30" height="2" fill="#F0F6FC">
+      <animate attributeName="x"
+        values="116;880;880"
+        keyTimes="0;.58;1"
+        dur="2.4s"
+        begin=".35s"
+        fill="freeze"/>
+      <animate attributeName="opacity"
+        values="1;1;0;1"
+        keyTimes="0;.7;.84;1"
+        dur="1.1s"
+        begin="2.7s"
+        repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Discipline line -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8B949E">
+    <text x="118" y="205">MACHINE LEARNING</text>
+    <text x="283" y="205">/</text>
+    <text x="306" y="205">ARTIFICIAL INTELLIGENCE</text>
+    <text x="520" y="205">/</text>
+    <text x="543" y="205">DATA SCIENCE</text>
+  </g>
+
+  <!-- Small data motif: looks like a model trace, not generic network art -->
+  <g transform="translate(930 105)">
+    <path d="M0 67 L24 58 L48 63 L72 34 L96 43 L120 14 L144 24 L168 8"
+          stroke="#8B949E" stroke-width="1.5" fill="none" stroke-dasharray="260" stroke-dashoffset="260">
+      <animate attributeName="stroke-dashoffset" from="260" to="0" dur="2.2s" begin=".6s" fill="freeze"/>
+    </path>
+    <g fill="#F0F6FC">
+      <circle cx="0" cy="67" r="2"/>
+      <circle cx="72" cy="34" r="2"/>
+      <circle cx="120" cy="14" r="2"/>
+      <circle cx="168" cy="8" r="2"/>
+    </g>
+    <text x="0" y="96" fill="#8B949E"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="10">LOSS ↓ / ITERATION ↑</text>
+  </g>
+
+  <!-- Tiny rotating status glyph -->
+  <g transform="translate(1118 205)">
+    <circle cx="0" cy="0" r="10" stroke="#8B949E" stroke-width="1" stroke-dasharray="9 5">
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 0 0" to="360 0 0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="2.5" fill="#F0F6FC"/>
+  </g>
+</svg>
