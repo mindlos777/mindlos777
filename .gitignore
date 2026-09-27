@@ -21,6 +21,8 @@ assets/cache/
 assets/tmp/
 assets/temp/
 
+assets/
+
 # Ignore large media files if not essential for repo
 # Uncomment if you have large videos or audio you don’t want in Git
 # assets/media/videos/
