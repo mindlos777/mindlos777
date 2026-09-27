@@ -1,5 +1,11 @@
 <div align="center">
-<img src="./assets/mandla-mathobela-header-fixed.svg" width="50%" alt="Mandla Mathobela"/>
+<img 
+    src="./assets/profile.png"
+    alt="Mandla Mathobela"
+    width="160"
+    height="160"
+    style="border-radius: 50%; object-fit: cover;"
+  />
 <br/>
 <img src="./assets/mandla-mathobela-header-fixed.svg" width="100%" alt="Mandla Mathobela — ML, AI and Data Science" />
 
