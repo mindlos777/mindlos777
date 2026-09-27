@@ -1,10 +1,10 @@
 <div align="center">
-<img src="./assets/profile-circle.svg" width="170" alt="Mandla Mathobela" />
-<br/>
+
 <img src="./assets/mandla-mathobela-header.svg" width="100%" alt="Mandla Mathobela — ML, AI and Data Science" />
 
 <br/>
-
+<img src="./assets/profile-circle.svg" width="170" alt="Mandla Mathobela" />
+<br/>
 **BSc Information Technology**
 
 <sub>Learning the foundations. Building the systems. Documenting the process.</sub>
