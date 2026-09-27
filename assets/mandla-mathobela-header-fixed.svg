@@ -1,0 +1,59 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B14"/>
+      <stop offset="0.55" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#0A1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="280" y1="0" x2="920" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.52" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="reveal">
+      <rect x="100" y="92" width="0" height="80">
+        <animate attributeName="width" values="0;1000;1000;0" keyTimes="0;0.38;0.86;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="21" stroke="#263244" stroke-opacity="0.8"/>
+
+  <g opacity="0.55">
+    <path d="M80 66H205M995 66H1120M80 234H205M995 234H1120" stroke="#334155" stroke-width="2"/>
+    <circle cx="80" cy="66" r="4" fill="#67E8F9"/>
+    <circle cx="1120" cy="234" r="4" fill="#A78BFA"/>
+  </g>
+
+  <g opacity="0.45">
+    <path d="M90 151 C170 90, 220 205, 300 145" stroke="#67E8F9" stroke-width="1.5"/>
+    <path d="M900 150 C980 95, 1030 205, 1110 143" stroke="#A78BFA" stroke-width="1.5"/>
+    <circle cx="90" cy="151" r="4" fill="#67E8F9"><animate attributeName="opacity" values=".3;1;.3" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="145" r="4" fill="#60A5FA"><animate attributeName="opacity" values="1;.3;1" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="150" r="4" fill="#A78BFA"><animate attributeName="opacity" values=".3;1;.3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1110" cy="143" r="4" fill="#60A5FA"><animate attributeName="opacity" values="1;.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <text x="600" y="78" text-anchor="middle" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="4">PROFILE // ONLINE</text>
+
+  <g clip-path="url(#reveal)">
+    <text x="600" y="158" text-anchor="middle" fill="url(#accent)" filter="url(#glow)" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="5">MANDLA MATHOBELA</text>
+  </g>
+
+  <rect x="1010" y="108" width="4" height="58" rx="2" fill="#67E8F9">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="206" text-anchor="middle" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" letter-spacing="3">MACHINE LEARNING  •  AI  •  DATA SCIENCE</text>
+  <text x="600" y="244" text-anchor="middle" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">learn → build → evaluate → improve</text>
+
+  <circle cx="600" cy="271" r="3" fill="#67E8F9">
+    <animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".4;1;.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
