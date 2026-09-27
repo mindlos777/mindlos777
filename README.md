@@ -37,7 +37,7 @@ class MandlaMathobela:
 
 I'm an IT student building toward **Machine Learning and AI Engineering**.
 
-What interests me most isn't just training a model. It's understanding the full path from messy data to something that can make a useful prediction, answer a question, or become part of a real product.
+What interests me most isn't just training a model. It's understanding the full path from messy data to something that can make a useful prediction(to answer questions) or become part of a real product.
 
 ```text
 raw data  →  understand  →  prepare  →  model  →  evaluate  →  build  →  improve
