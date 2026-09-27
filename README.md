@@ -4,7 +4,7 @@
 
 <br/>
 
-**BSc Information Technology · Machine Learning · AI · Data Science**
+**BSc Information Technology**
 
 <sub>Learning the foundations. Building the systems. Documenting the process.</sub>
 
