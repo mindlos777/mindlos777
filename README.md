@@ -109,11 +109,11 @@ The four projects below are the work I want this profile to be judged by.
 
 |  | Project | What it explores |
 |---|---|---|
-| `01` | **Predictive Maintenance** | Data analysis · Machine learning · prediction · model evaluation · visualization · insight|
-| `02` | **[Credit Risk Prediction](https://github.com/YOUR-USERNAME/credit-risk-prediction)** | Data analysis · Machine learning · prediction · model evaluation|
-| `03` | **Portfolio project** | AI · retrieval · LLM application |
-| `04` | **Richfield Social** | Mobile Development · Student Social Media · AI-Chatbot · insight|
-
+| `01` | **[Predictive Maintenance](https://github.com/mindlos777/ml_predictive_maintenance)** | Data analysis · Machine learning · prediction · model evaluation · visualization · insight|
+| `02` | **[Credit Risk Prediction](https://github.com/mindlos777/Credit-Risk-Prediction)** | Data analysis · Machine learning · prediction · model evaluation|
+| `03` | **[Portfolio project](https://github.com/mindlos777/My_portfolio)** | Web Development · AI · retrieval · LLM application |
+| `04` | **[Richfield Social](https://github.com/mindlos777/Richfield-Social-App)** | Mobile Development · Student Social Media · AI-Chatbot · insight · React Native · Expo · Supabase|
+| 05 | **[Tertiary SA](https://github.com/mindlos777/matric-pathway-rework)** | Helps SA matriculants discover qualifying courses, explore institutions and bursaries, apply for opportunities and improve their CVs. | Mobile Development · React Native · Expo · Firebase |
 ---
 
 ## `> how_i_think_about_ml`
