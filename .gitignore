@@ -1,0 +1,30 @@
+# Ignore compiled CSS or minified JS
+assets/**/*.min.js
+assets/**/*.min.css
+
+# Ignore build-generated images or sprites (if you use an image pipeline)
+assets/images/sprites/*.png
+assets/images/sprites/*.svg
+
+# Ignore temporary editor or OS-specific files
+assets/**/*~
+assets/**/*.swp
+assets/**/*.DS_Store
+assets/**/*.Thumbs.db
+
+# Ignore logs or debug outputs
+assets/logs/
+assets/debug/
+
+# Ignore cache files or folders
+assets/cache/
+assets/tmp/
+assets/temp/
+
+# Ignore large media files if not essential for repo
+# Uncomment if you have large videos or audio you don’t want in Git
+# assets/media/videos/
+# assets/media/audio/
+
+# Include exceptions if needed
+# !assets/images/icons/important-icon.png  # Example: force-add a specific file
