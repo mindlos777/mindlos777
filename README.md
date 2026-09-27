@@ -109,12 +109,10 @@ The four projects below are the work I want this profile to be judged by.
 
 |  | Project | What it explores |
 |---|---|---|
-| `01` | **Project One** | Machine learning · prediction · model evaluation |
-| `02` | **Project Two** | Data analysis · visualization · insight |
-| `03` | **Project Three** | AI · retrieval · LLM application |
-| `04` | **Project Four** | Software engineering · real-world product |
-
-> Repositories, results and demos will live here as the projects are published.
+| `01` | **Predictive Maintenance** | Data analysis · Machine learning · prediction · model evaluation · visualization · insight|
+| `02` | **Credit Risk Prediction** | Data analysis · Machine learning · prediction · model evaluation|
+| `03` | **Portfolio project** | AI · retrieval · LLM application |
+| `04` | **Richfield Social** | Mobile Development · Student Social Media · AI-Chatbot · insight|
 
 ---
 
