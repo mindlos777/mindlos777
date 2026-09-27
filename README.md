@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/joseph-litcon-header.svg" width="100%" alt="Joseph Litcon — ML, AI and Data Science" />
+<img src="./assets/joseph-litcon-header.svg" width="100%" alt="Mandla Mathobela — ML, AI and Data Science" />
 
 <br/>
 
