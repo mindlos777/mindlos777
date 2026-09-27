@@ -43,6 +43,7 @@ This profile is where I keep that process visible.
 
 ## `> current_focus`
 
+<div align="center">
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -94,6 +95,7 @@ This profile is where I keep that process visible.
 </td>
 </tr>
 </table>
+</div>
 
 ---
 
