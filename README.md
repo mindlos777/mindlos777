@@ -13,7 +13,7 @@
 <br/>
 
 ## `> whoami`
-
+<img src="./assets/mandla-mathobela-header-fixed.svg" width="50%" align="center" alt="Mandla Mathobela"/>
 ```python
 class MandlaMathobela:
     degree = "BSc Information Technology"
