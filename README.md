@@ -3,7 +3,8 @@
 <img src="./assets/mandla-mathobela-header-fixed.svg" width="100%" alt="Mandla Mathobela — ML, AI and Data Science" />
 
 <br/>
-
+<img src="./assets/mandla-mathobela-header-fixed.svg" width="50%" alt="Mandla Mathobela"/>
+<br/>
 **BSc Information Technology**
 
 <sub>Learning the foundations. Building the systems. Documenting the process.</sub>
@@ -13,7 +14,6 @@
 <br/>
 
 ## `> whoami`
-<img src="./assets/mandla-mathobela-header-fixed.svg" width="50%" align="center" alt="Mandla Mathobela"/>
 ```python
 class MandlaMathobela:
     degree = "BSc Information Technology"
