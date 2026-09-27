@@ -110,7 +110,7 @@ The four projects below are the work I want this profile to be judged by.
 |  | Project | What it explores |
 |---|---|---|
 | `01` | **Predictive Maintenance** | Data analysis · Machine learning · prediction · model evaluation · visualization · insight|
-| `02` | **Credit Risk Prediction** | Data analysis · Machine learning · prediction · model evaluation|
+| `02` | **[Credit Risk Prediction](https://github.com/YOUR-USERNAME/credit-risk-prediction)** | Data analysis · Machine learning · prediction · model evaluation|
 | `03` | **Portfolio project** | AI · retrieval · LLM application |
 | `04` | **Richfield Social** | Mobile Development · Student Social Media · AI-Chatbot · insight|
 
